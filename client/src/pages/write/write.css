@@ -1,0 +1,87 @@
+.write {
+  padding-top: 50px;
+}
+
+.writeImg {
+  margin-left: 150px;
+  width: 70vw;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.writeForm {
+  position: relative;
+}
+
+.writeFormGroup {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.writeIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: rgb(121, 118, 118);
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+}
+
+.writeInput:focus {
+  outline: none;
+}
+
+.writeText {
+  font-size: 20px;
+  height: 65.7vh;
+}
+
+.writeSubmit {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: rgb(169, 0, 236);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media only screen and (max-width:480px){
+  .write{
+    margin: 0 -78px;
+  }
+  .writeFormGroup{
+    margin-left: 90px;
+  }
+  .writeSubmit{
+    right: 90px;
+  }
+}
+
+@media only screen and (min-width:480px)and (max-width:1279px) {
+  .write{
+    padding-top: 100px;
+  }
+  .writeSubmit{
+    font-size: 35px;
+  }
+  .writeInput{
+    font-size: 50px;
+  }
+}

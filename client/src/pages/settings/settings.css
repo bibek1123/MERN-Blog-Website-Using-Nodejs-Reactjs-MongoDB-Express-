@@ -1,0 +1,123 @@
+.settings {
+  display: flex;
+}
+
+.settingsWrapper {
+  flex: 9;
+  padding: 20px;
+}
+
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settingsUpdateTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(7, 3, 194);
+}
+
+.settingsDeleteTitle {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.settingsPP > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.settingsPPIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(212, 6, 240);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.settingsForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.settingsForm > input {
+  color: gray;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.settingsSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(11, 1, 158);
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:480px){
+.settings{
+  flex-direction: column;
+}
+.settingsTitle{
+  flex-direction: column;
+}
+}
+
+@media only screen and (min-width:480px)and (max-width:1279px) {
+  .settings{
+    flex-direction: column;
+  }
+  .settingsUpdateTitle{
+    font-size: 70px;
+  }
+  .settingsDeleteTitle{
+    font-size: 30px;
+  }
+  .settingsForm > label{
+    font-size: 35px;
+  }
+  .settingsPP > img{
+    width: 200px;
+    height: 200px;
+  }
+  .settingsPPIcon{
+    width: 75px;
+    height: 75px;
+  }
+  .labelIcon{
+    font-size: 60px;
+  }
+  .settingsForm > input{
+    font-size: 24px;
+  }
+  .settingsSubmit{
+    font-size: 35px;
+  }
+}

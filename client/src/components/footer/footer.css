@@ -1,0 +1,13 @@
+.footercss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 4, 179);
+    color: white;
+    height: 3.5vh;
+}
+@media only screen and (min-width:480px)and (max-width:1279px) {
+    .footercss{
+        font-size: 40px;
+    }
+}

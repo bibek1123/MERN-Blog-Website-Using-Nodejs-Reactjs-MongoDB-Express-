@@ -1,0 +1,43 @@
+.header {
+  margin-top: 60px;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #444;
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 10%;
+  font-size: 25px;
+  text-decoration: underline;
+  color: rgb(191, 5, 216);
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 12%;
+  font-size: 100px;
+  color: blue;
+}
+
+.headerImg{
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+}
+
+@media only screen and (min-width:480px)and (max-width:1279px) {
+  .headerTitleSm{
+    top: 5%;
+    font-size: 30px;
+  }
+  .headerTitleLg{
+    top: 6%;
+  }
+}
